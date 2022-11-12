@@ -1,0 +1,35 @@
+.slider__container {
+	width: 848px;
+	height: 470px;
+	margin: 77px auto;
+}
+
+.slider__inner {
+	width: 848px;
+	height: 470px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slider__inner-item {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition: all ease 1s;
+	opacity: 0;
+}
+
+.opacity1 {
+	opacity: 1;
+}
+
+.slider__control {
+	display: flex;
+	justify-content: center;
+}
+
+.slider__control-button {
+	margin: 30px 20px;
+	padding: 10px 15px;
+
+}
